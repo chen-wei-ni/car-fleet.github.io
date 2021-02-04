@@ -4,8 +4,11 @@
   <meta name="viewport" content="width=device-width,  initial-scale=1">
   <title>Swiper demo</title>
   <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="swiper-master/package/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/css.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -134,13 +137,17 @@
 		<div><a href="#"><img src="images/payinperson.svg"><span>到店付款</span></a></div>
 	</div>
 	<!-- Swiper JS -->
-  <script src="swiper-master/package/swiper-bundle.min.js"></script>
+  <script src="swiper-master/package/swiper-bundle.min.js" type="text/javascript" > </script>
 
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container');
   </script>
+ <script type="module">
+  import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
 
+  const swiper = new Swiper(...)
+</script>
  
 </body>
 
