@@ -1,0 +1,214 @@
+﻿ /*swipe*/
+ html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+@font-face{
+	font-family:'GenSekiGothic-R';
+	src:url('GenSekiGothic-R.ttc');
+	}
+    body {
+      background: #fff;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+	  font-family:'GenSekiGothic-R';
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+}
+	#button div img {
+		width:30px;
+	}
+	#button div {
+		width:45%;
+	}
+	#button div  a {
+		display:block;
+		text-decoration:none;
+	}
+	#button div span {
+		color:#fff;
+		font-size:1rem;
+	}
+@media screen and (min-width:601px) and (max-width:88888px){
+	.header {
+		background-image: linear-gradient(to right, #00be90 0%, #12b252 100%);
+		padding:15px 10px;
+		box-shadow:1px 2px 5px #c4c4c4; /*位置、、模糊、顏色*/
+		margin-bottom:15px;
+		z-index:2;
+		font-size:0.9rem;
+	}
+	.header span{
+		color:#fff;
+	}
+	.swiper-container {
+      width: 100%;
+	  height:83%;
+    }
+	.main_cf {
+		height:85%;
+	}
+	.main_cf img {
+		height:100%;
+	}
+	.caption {
+		font-weight:bold;
+		letter-spacing:2px;
+		display:block;
+		padding:8px 0 0 0;
+		color:#005e3f;
+	}
+	.desc {
+		font-size:1rem;
+		padding:0 0 5px 0;
+		line-height:20px;
+		margin:10px 0;
+	}
+	#button {
+		display:flex;
+		justify-content:space-around;
+		background:linear-gradient(90deg,#0ba360,#12b252);
+		height:10%;
+		align-items: center;
+		text-align:center;
+		padding:5px;
+	}
+
+}
+/*MOBILE*/
+@media screen and (min-width:322px) and (max-width:600px){
+	.swiper-container {
+      width: 100%;
+	  height:83%;
+    }
+	 .swiper-slide {
+	  overflow:auto;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+     /* -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;*/
+    }
+	.caption {
+		font-weight:bold;
+		letter-spacing:2px;
+		display:block;
+		padding:8px 0 0 0;
+		color:#005e3f;
+	}
+	.desc {
+		font-size:0.9rem;
+		padding:0 0 5px 0;
+		line-height:20px;
+		margin:10px 0;
+	}
+
+	.header {
+		background-image: linear-gradient(to right, #00be90 0%, #12b252 100%);
+		padding:15px 10px;
+		box-shadow:1px 2px 5px #c4c4c4; /*位置、、模糊、顏色*/
+		margin-bottom:2%;
+		z-index:2;
+		font-size:0.9rem;
+	}
+	.header span{
+		color:#fff;
+	}
+	/*圖片部分*/
+	.main_cf {
+		padding:0 8px 8px 8px;
+		text-align:left;
+	}
+	.main_cf img {
+		width:100%;
+	}
+	#button {
+		display:flex;
+		justify-content:space-around;
+		background:linear-gradient(90deg,#0ba360,#12b252);
+		height:10.6%;
+		align-items: center;
+		text-align:center;
+	}
+
+}
+@media screen and (min-width:10px) and (max-width:321px){
+	.swiper-container {
+      width: 100%;
+	  height:82%;
+    }
+	 .swiper-slide {
+	  overflow:auto;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+     /* -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;*/
+    }
+
+	.header {
+		background-image: linear-gradient(to right, #00be90 0%, #12b252 100%);
+		padding:15px 10px;
+		box-shadow:1px 2px 5px #c4c4c4; /*位置、、模糊、顏色*/
+		margin-bottom:2%;
+		z-index:2;
+	}
+	.header span{
+		color:#fff;
+	}
+	/*圖片部分*/
+	.main_cf {
+		padding:0 5px 5px 5px;
+		text-align:left;
+	}
+
+	.main_cf img {
+		width:100%;
+	}
+	.caption {
+		font-weight:bold;
+		letter-spacing:2px;
+		display:block;
+		padding:8px 0 0 0;
+		color:#005e3f;
+	}
+	.desc {
+		font-size:0.9rem;
+		padding:0 0 5px 0;
+		line-height:20px;
+		margin:10px 0;
+	}
+
+	#button {
+		display:flex;
+		justify-content:space-around;
+		background:linear-gradient(90deg,#0ba360,#12b252);
+		height:10%;
+		align-items: center;
+		text-align:center;
+	}
+
+
+}
